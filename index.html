@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title id="title"></title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="-1" />
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;"/>
+<link rel="stylesheet" href="css/desa-digital.css">
+<link rel="icon" href="img/favicon.png" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-8 mr-a box-semua" id="main" style="float:none;">
+				<div class="row">
+					<div class="col-4">	
+						<div class="row">
+							<div class="col-12">
+								<div class="logo bmh-80 bg-white text-center"><img src="img/logo.png" alt="Desa Digital" style="border-radius: 5px; width:100%; max-width: 400px; height:auto;"/></div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div class="border-atas-bawah">
+									<div class="text-berjalan bg-blue text-white"><marquee height="17" scrolldelay="150">SPYDERIT HOTSPOT এ আপনাকে স্বাগতম। ১ মাস আনলিমিটেড ওয়াই-ফাই হটস্পট ব্যবহার করুন মাএ ১০০ টাকায়। কার্ড সংগ্রহ করতে যোগাযোগ করুন ০১৮৮০৩৯৭০৯০</marquee></div>
+								</div>		
+							</div>
+						</div>
+						<div class="row">
+						<div class="bawah-judul" style="color: #000000;"><p>🔰প্রথমে <b>ভাউচার কার্ড বা ফোন নাম্বার </b>লিখুন তারপর লগইন করুন🔰 </p></div>
+						</div>
+						<div class="row">
+							<div class="col-12">
+								<div class="card ">
+									<div class="login">
+								$(if chap-id)
+									<form name="sendin" action="$(link-login-only)" method="post">
+										<input type="hidden" name="username" />
+										<input type="hidden" name="password" />
+										<input type="hidden" name="dst" value="$(link-orig)" />
+										<input type="hidden" name="popup" value="true" />
+									</form>
+	
+									<script type="text/javascript" src="/md5.js"></script>
+									<script type="text/javascript">
+									<!--
+	    							function doLogin() {
+									document.sendin.username.value = document.login.username.value;
+									document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+									document.sendin.submit();
+									return false;
+	    							}
+									//-->
+									</script>
+								$(endif)
+						
+					<div>	
+					<form autocomplete="off" name="login" action="$(link-login-only)" method="post"
+					    $(if chap-id) onSubmit="return doLogin()" $(endif)>
+						<input type="hidden" name="dst" value="$(link-orig)" />
+						<input type="hidden" name="popup" value="true" />
+							<div class="row">
+								$(if trial == 'yes')
+								<div class="col-4 col-md-4"> 
+								<div class="box mr-2 pointer text-center text-light tombol" id="btnvcr" onclick="voucher()">ভাউচার</div>
+								</div>
+								<div class="col-4 col-md-4">
+								<div class="box mr-2 pointer text-center text-light tombol" id="btnmem" onclick="member()">ইউজার</div>
+								</div>
+								<div class="col-4 col-md-4">
+								<a href="$(link-login-only)?dst=$(link-orig-esc)&amp;username=T-$(mac-esc)">
+								<div class="box mr-2 pointer text-center text-light tombol" id="btntrial">ফ্রি</div></a>
+								</div>
+								
+								$(elif trial == 'no')
+								<div class="col-6 col-md-6"> 
+								<div class="box mr-2 pointer text-center text-light tombol" id="btnvcr" onclick="voucher()">ভাউচার</div>
+								</div>
+								<div class="col-6 col-md-6">
+								<div class="box mr-2 pointer text-center text-light tombol" id="btnmem" onclick="member()">ইউজার</div>
+								</div>
+								$(endif)
+							</div>
+								<input class="form-control-md mr-t-10 plch-center" name="username" type="text" value="$(username)" placeholder="কার্ড নাম্বার" />
+								<input class="form-control-md mr-t-10 plch-center" name="password" type="hidden" placeholder="পাসওয়ার্ড" />
+							<div class="row">
+								<div class="col-6 col-md-6">
+									<div class="text-center mr-t-10 mr-r-4">
+										<button type="submit" class="w-12 bg-login btn-md pd-5">লগইন</button>
+									</div>
+								</div>
+								<div class="col-6 col-md-6">
+									<div onclick="window.location='https://laksa19.github.io/myqr';" class="text-center mr-t-10 mr-l-4">
+										<div class="w-11 bg-qr btn-md pd-5">QR লগইন</div>
+									</div>
+								</div>
+							</div>
+					</form>
+				</div>
+					
+				$(if error)<div class="alert bg-danger text-center mr-t-10">$(error)</div>$(endif)
+									</div>
+								</div>
+							</div>
+						</div>
+	<div class="row">
+		<div class="cardx">
+			<hr>
+			<div class="row" style="margin-top: -5px">
+              <div class="carousel slide" data-ride="carousel" data-interval="3500">
+                <div class="carousel-inner">
+                  <div class="active carousel-item text-blue">
+                    <p style="font-size:19px;text-align:center">
+                      ৩ দিন • <b>২০৳ | </b>৭ দিন • <b>৪০৳</b>
+                    </p>
+                  </div>
+                  <div class="carousel-item text-green">
+                    <p style="font-size:19px;text-align:center">
+                      ১৫ দিন • <b>৬০৳</b>
+                    </p>
+                  </div>
+                  <div class="carousel-item text-black">
+                    <p style="font-size:19px;text-align:center">
+                     ৩০ দিন • <b>১০০৳</b>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <p style="font-size:14px;text-align:center;color: #ef0007">
+              	<b>⚡সকল প্যাকেজে আনলিমিটেড ইন্টারনেট⚡</b>
+              </p>
+              <a href="bkash.html"><div class="bawah-judul" style="font-size: 16px; color:#1b24d1;">💳বিকাশের মাধ্যমে ভাউচার কার্ড কিনতে এখানে ক্লিক করুন💳<href="/bkash.html"></div></a>
+			</div>
+			<hr>
+		</div>
+	</div>
+</div>
+<div class="col-8">
+	<div class="row">
+		<div class="carousel slide" data-ride="carousel" data-interval="3000">
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" style="width:100%; max-width: 607px; height:auto;" src="img/spyder1.png" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" style="width:100%; max-width: 607px; height:auto;" src="img/spyder2.png" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" style="width:100%; max-width: 607px; height:auto;" src="img/spyder3.png" alt="Third slide">
+		    </div>
+		  </div>
+		</div>
+	</div>
+	<div class="text-center text-grey" style="font-size: 80%">&copy; Copyright SPYDERIT SOLUTION 2023 | All rights reserved </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+document.login.username.focus();
+document.getElementById('title').innerHTML = window.location.hostname + " > login";
+
+var username = document.login.username;
+var password = document.login.password;
+var luser = document.getElementById("luser");
+var lpass = document.getElementById("lpass");
+var btnmem = document.getElementById("btnmem");
+var btnvcr = document.getElementById("btnvcr");
+
+function setpass(){
+  var user = username.value		
+  password.value = user;
+}
+username.onchange = setpass;
+btnvcr.style.border = "1.5px solid #ff2b31";
+btnvcr.style.color = "#ff2b31";
+btnmem.style.border = "1.5px solid #999";
+btnmem.style.color = "#999";
+btntrial.style.border = "1.5px solid #999";
+btntrial.style.color = "#999";
+
+function voucher(){
+  username.focus();
+  username.onchange = setpass;
+  username.placeholder = "কার্ড নাম্বার";
+  password.type = "hidden";
+  password.value = username.value;  
+  btnvcr.style.border = "1.5px solid #ff2b31";
+  btnvcr.style.color = "#ff2b31";
+  btnmem.style.border = "1.5px solid #999";
+  btnmem.style.color = "#999";
+  btntrial.style.border = "1.5px solid #999";
+  btntrial.style.color = "#999";
+}
+
+function member(){
+  username.focus();
+  username.onchange = "";
+  username.placeholder = "ইউজার আইডি";
+  password.type= "পাসওয়ার্ড";
+  password.value = "";
+  btnmem.style.border = "1.5px solid #ff2b31";
+  btnmem.style.color = "#ff2b31";
+  btnvcr.style.border = "1.5px solid #999";
+  btnvcr.style.color = "#999";
+  btntrial.style.border = "1.5px solid #999";
+  btntrial.style.color = "#999";
+}
+
+</script>
+<script src="js/slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
